@@ -1,0 +1,11 @@
+# The project was developed on Python 3.12 with CUDA 12.8 wheels.
+# On a machine without CUDA, install the CPU wheels instead; the game still
+# runs, but YOLO inference will be slower.
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+Pillow==12.3.0
+numpy==2.3.5
+ultralytics==8.4.187
+# torch / torchvision: install from the PyTorch index first:
+# pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128

@@ -1,0 +1,27 @@
+* text=auto eol=lf
+
+*.ts text
+*.tsx text
+*.js text
+*.mjs text
+*.css text
+*.html text
+*.json text
+*.jsonc text
+*.md text
+*.py text
+*.ps1 text
+*.cmd text eol=crlf
+*.yaml text
+*.yml text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pt binary
+*.onnx binary
+*.zip binary
+*.whl binary
